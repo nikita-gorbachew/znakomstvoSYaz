@@ -18,7 +18,7 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
  }
 // "!=" - проверка на неравенство 5 != 5 - False
 
-if (firstNumber == secondNumber * secondNumber);
+if (firstNumber == secondNumber * secondNumber)
 {
     Console.WriteLine();
 }
