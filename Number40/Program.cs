@@ -20,11 +20,14 @@ int sideLengthC = Convert.ToInt32(Console.ReadLine());
 
 void Check(int a, int b, int c)
 {
-    if( a > b + c && b < c + a && c < b + a)
+    if( a < b + c && b < c + a && c < b + a)
     {
         System.Console.WriteLine($"Да существует");
     }
-    System.Console.WriteLine($"Нет такого");
+    else
+    {
+         System.Console.WriteLine($"Нет такого");
+    }
 }
 Check(sideLengthA,sideLengthB,sideLengthC);
 */
